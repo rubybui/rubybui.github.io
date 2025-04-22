@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ruby Bui | Developer</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruby Bui | Software Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="https://linkedin.com/in/rubybui99" target="_blank">About</a></li>
-      </ul>
-    </nav>
-    <div class="intro">
-      <h1>Ruby Bui</h1>
-      <h2>DEVELOPER</h2>
-      <p>I’m a developer specializing in building (and occasionally designing) exceptional digital experiences.</p>
+  <header class="hero">
+    <div class="content">
+      <h1>Ruby Bui<br><span>Full Stack Software Engineer</span></h1>
+      <p>Building impactful web experiences with Ruby on Rails, React, and the cloud.</p>
+      <div class="buttons">
+        <a href="#contact" class="btn primary">Hire Me</a>
+        <a href="#projects" class="btn">View Work</a>
+      </div>
     </div>
+    <div class="hero-img"></div>
   </header>
 
-  <section class="skills">
-    <h3>Skills</h3>
-    <div class="skill-icons">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby"/>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+  <section class="about">
+    <div class="about-img"></div>
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <p>I'm Ruby Bui, a full-stack developer with 3+ years of experience. I’m currently completing my BS in Computer Science & Information Systems with a minor in Economics at the University of Wisconsin - Parkside. I specialize in building scalable and secure full-stack applications, with hands-on experience in Ruby on Rails, React, Node.js, and major cloud platforms.</p>
+      <div class="stats">
+        <div><strong>3+</strong><span>Years<br>Experience</span></div>
+        <div><strong>10+</strong><span>Projects<br>Completed</span></div>
+        <div><strong>5+</strong><span>Clients<br>Helped</span></div>
+      </div>
     </div>
   </section>
 
-  <section class="experience">
-    <h3>Experience</h3>
-    <ul>
-      <li>
-        <h4>Full Stack Developer</h4>
-        <p>Coderpush (MyStorage.vn), 2022—Present</p>
-      </li>
-      <li>
-        <h4>Full Stack Developer (Part-time)</h4>
-        <p>Hivestories, 2023—2024</p>
-      </li>
-      <li>
-        <h4>Software Engineer</h4>
-        <p>CMC Global, 2021—2022</p>
-      </li>
-    </ul>
+  <section class="skills">
+    <h2>Technical <span>Skills</span></h2>
+    <div class="skills-list">
+      <div class="skill">Ruby</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">TypeScript</div>
+      <div class="skill">Python</div>
+      <div class="skill">Dart</div>
+      <div class="skill">C#</div>
+      <div class="skill">SQL / NoSQL</div>
+      <div class="skill">React</div>
+      <div class="skill">Vue</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Rails</div>
+      <div class="skill">Flask</div>
+      <div class="skill">Django</div>
+      <div class="skill">Azure</div>
+      <div class="skill">GCP</div>
+      <div class="skill">AWS</div>
+    </div>
   </section>
 
-  <footer>
-    <p><a href="https://github.com/rubybui">GitHub</a> | <a href="mailto:buihongngoc.hnams@gmail.com">Email</a></p>
-  </footer>
+  <section id="projects" class="projects">
+    <h2>Featured <span>Projects</span></h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>MyStorage.vn (CoderPush)</h3>
+        <p>Built a distributed booking and storage platform in Ruby on Rails and React, reducing data discrepancies by 70% and processing over $400K/year in transactions.</p>
+      </div>
+      <div class="project-card">
+        <h3>TruyenNhaOng.vn (Hivestories)</h3>
+        <p>Developed mobile apps with Flutter and C# supporting 200K+ monthly ad impressions. Enhanced CI/CD, security, and content protection with AES encryption.</p>
+      </div>
+      <div class="project-card">
+        <h3>CMC Global - Data Market</h3>
+        <p>Developed a B2B data ecosystem with Django and React. Added OAuth2 (PKCE) and PDF contract tools, reducing errors by 25% and onboarding time to 3 days.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="resume">
+    <h2>My <span>Resume</span></h2>
+    <p>You can view or download my resume below:</p>
+    <iframe src="NgocBui-SWE-Resume.pdf" width="100%" height="600px" style="border: none;"></iframe>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get in <span>Touch</span></h2>
+    <p>Email: <a href="mailto:rubybui.swe@gmail.com">rubybui.swe@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/rubybui99">linkedin.com/in/rubybui99</a></p>
+    <p>GitHub: <a href="https://github.com/rubybui">github.com/rubybui</a></p>
+    <p>Location: Mountain View, CA</p>
+  </section>
 </body>
 </html>
 
